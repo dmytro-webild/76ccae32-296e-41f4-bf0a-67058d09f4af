@@ -52,10 +52,10 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/man-polishing-car-with-orbital-applicator_1303-30576.jpg",              imageAlt: "Premium car detailing service"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/car-wash-detailing-station_1303-22299.jpg?_wi=1",              imageAlt: "Exterior detailing showcase"
+              imageSrc: "http://img.b2bpic.net/free-photo/car-wash-detailing-station_1303-22299.jpg",              imageAlt: "Exterior detailing showcase"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/man-working-car-detailing-coating-car_1303-30598.jpg?_wi=1",              imageAlt: "Paint protection service"
+              imageSrc: "http://img.b2bpic.net/free-photo/man-working-car-detailing-coating-car_1303-30598.jpg",              imageAlt: "Paint protection service"
             }
           ]}
           autoplayDelay={5000}
@@ -85,7 +85,7 @@ export default function LandingPage() {
           features={[
             {
               id: "exterior",              title: "Exterior Detailing",              author: "Professional Grade",              description: "Complete exterior restoration including paint correction, clay bar treatment, and protective coating application. We restore your vehicle's shine to showroom quality.",              tags: ["Paint", "Protection", "Shine"],
-              imageSrc: "http://img.b2bpic.net/free-photo/car-wash-detailing-station_1303-22299.jpg?_wi=2",              imageAlt: "Exterior detailing service"
+              imageSrc: "http://img.b2bpic.net/free-photo/car-wash-detailing-station_1303-22299.jpg",              imageAlt: "Exterior detailing service"
             },
             {
               id: "interior",              title: "Interior Detailing",              author: "Deep Cleaning",              description: "Thorough interior cleaning including leather conditioning, carpet and upholstery steam cleaning, and air freshening. Your cabin will feel brand new.",              tags: ["Cleaning", "Conditioning", "Comfort"],
@@ -93,7 +93,7 @@ export default function LandingPage() {
             },
             {
               id: "protection",              title: "Ceramic Coating & Protection",              author: "Long-Term Defense",              description: "Advanced ceramic coating application provides years of protection against environmental contaminants, UV rays, and oxidation. Investment protection for your vehicle.",              tags: ["Coating", "Defense", "Durability"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-working-car-detailing-coating-car_1303-30598.jpg?_wi=2",              imageAlt: "Ceramic coating protection service"
+              imageSrc: "http://img.b2bpic.net/free-photo/man-working-car-detailing-coating-car_1303-30598.jpg",              imageAlt: "Ceramic coating protection service"
             }
           ]}
           animationType="slide-up"
@@ -139,10 +139,10 @@ export default function LandingPage() {
           speed={40}
           testimonials={[
             {
-              id: "1",              name: "Marcus Rodriguez",              handle: "BMW Owner",              testimonial: "Exceptional work! My BMW looks better than when I drove it off the lot. The attention to detail and professionalism is unmatched. Highly recommend!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=1",              imageAlt: "Marcus Rodriguez"
+              id: "1",              name: "Marcus Rodriguez",              handle: "BMW Owner",              testimonial: "Exceptional work! My BMW looks better than when I drove it off the lot. The attention to detail and professionalism is unmatched. Highly recommend!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",              imageAlt: "Marcus Rodriguez"
             },
             {
-              id: "2",              name: "Jennifer Chen",              handle: "Tesla Owner",              testimonial: "Outstanding service and results. The team knows how to handle delicate finishes with care. My Tesla's paint protection is perfect.",              imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg?_wi=1",              imageAlt: "Jennifer Chen"
+              id: "2",              name: "Jennifer Chen",              handle: "Tesla Owner",              testimonial: "Outstanding service and results. The team knows how to handle delicate finishes with care. My Tesla's paint protection is perfect.",              imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg",              imageAlt: "Jennifer Chen"
             },
             {
               id: "3",              name: "David Thompson",              handle: "Fleet Manager",              testimonial: "We use Vargas Brothers for all our company vehicles. Reliable, professional, and they always deliver exceptional results on time.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "David Thompson"
@@ -151,10 +151,10 @@ export default function LandingPage() {
               id: "4",              name: "Sarah Martinez",              handle: "Mercedes Owner",              testimonial: "Worth every penny! The ceramic coating has kept my car looking showroom fresh. Customer service is top-notch.",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-beautiful-adult-businesswoman_1262-1760.jpg",              imageAlt: "Sarah Martinez"
             },
             {
-              id: "5",              name: "James Wilson",              handle: "Audi Owner",              testimonial: "Best detailing service in the area. The team is professional, punctual, and delivers stunning results consistently.",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=2",              imageAlt: "James Wilson"
+              id: "5",              name: "James Wilson",              handle: "Audi Owner",              testimonial: "Best detailing service in the area. The team is professional, punctual, and delivers stunning results consistently.",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",              imageAlt: "James Wilson"
             },
             {
-              id: "6",              name: "Amanda Foster",              handle: "Honda Owner",              testimonial: "I've been a customer for 5 years. They truly care about your vehicle and it shows in their meticulous work.",              imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg?_wi=2",              imageAlt: "Amanda Foster"
+              id: "6",              name: "Amanda Foster",              handle: "Honda Owner",              testimonial: "I've been a customer for 5 years. They truly care about your vehicle and it shows in their meticulous work.",              imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg",              imageAlt: "Amanda Foster"
             }
           ]}
         />
@@ -170,7 +170,6 @@ export default function LandingPage() {
           names={["Ford", "Chevrolet", "BMW", "Tesla", "Mercedes-Benz", "Audi", "Honda"]}
           speed={40}
           showCard={true}
-          animationType="slide-up"
         />
       </div>
 
