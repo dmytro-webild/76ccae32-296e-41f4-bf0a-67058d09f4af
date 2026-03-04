@@ -44,7 +44,7 @@ export default function LandingPage() {
           logoText="VARGAS BROTHERS"
           description="Professional automotive detailing that transforms your vehicle with precision, passion, and premium care. Experience excellence with every service."
           buttons={[
-            { text: "Book Detailing", href: "contact" },
+            { text: "Schedule Detailing Now", href: "contact" },
             { text: "Learn More", href: "services" }
           ]}
           slides={[
@@ -184,7 +184,7 @@ export default function LandingPage() {
           imageAlt="Premium detailing results"
           mediaAnimation="slide-up"
           mediaPosition="right"
-          inputPlaceholder="Enter your email to book"
+          inputPlaceholder="Enter your email"
           buttonText="Get Started"
           termsText="We respect your privacy. Unsubscribe at any time."
         />
