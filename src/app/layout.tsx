@@ -1,53 +1,20 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
 import { Inter } from "next/font/google";
-import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
+import "@/styles/globals.css";
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",  subsets: ["latin"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vargas Brothers Detailing | Premium Auto Detailing Services",  description: "Professional automotive detailing in our area. Expert exterior, interior, and ceramic coating services for all vehicle types. 12K+ satisfied customers.",  keywords: "car detailing, auto detailing, paint protection, ceramic coating, vehicle detailing, professional car wash",  metadataBase: new URL("https://vargasbrothersdetailing.com"),
-  alternates: {
-    canonical: "https://vargasbrothersdetailing.com"
-  },
-  openGraph: {
-    title: "Vargas Brothers Detailing | Premium Auto Detailing",    description: "Transform your vehicle with professional detailing services. Exterior, interior, and ceramic coating expertise.",    url: "https://vargasbrothersdetailing.com",    siteName: "Vargas Brothers Detailing",    type: "website",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/man-polishing-car-with-orbital-applicator_1303-30576.jpg",        alt: "Vargas Brothers professional detailing"
-      }
-    ]
-  },
-  twitter: {
-    card: "summary_large_image",    title: "Vargas Brothers Detailing",    description: "Premium automotive detailing services for discerning vehicle owners.",    images: ["http://img.b2bpic.net/free-photo/man-polishing-car-with-orbital-applicator_1303-30576.jpg"]
-  },
-  robots: {
-    index: true,
-    follow: true
-  }
-};
+  title: "Vargas Brothers Detailing",  description: "Professional automotive detailing services"};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${dmSans.variable} ${inter.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1415,7 +1382,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
