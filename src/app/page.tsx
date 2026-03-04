@@ -184,7 +184,7 @@ export default function LandingPage() {
           imageAlt="Premium detailing results"
           mediaAnimation="slide-up"
           mediaPosition="right"
-          inputPlaceholder="Enter your email"
+          inputPlaceholder="Enter your email to book"
           buttonText="Get Started"
           termsText="We respect your privacy. Unsubscribe at any time."
         />
